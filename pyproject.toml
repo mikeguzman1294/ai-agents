@@ -5,10 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "chainlit>=2.5.5",
     "fastapi>=0.115.12",
     "google-cloud-aiplatform>=1.95.1",
+    "google-genai>=1.18.0",
     "grandalf>=0.8",
     "langchain>=0.3.25",
+    "langchain-google-genai>=2.1.5",
     "langchain-ollama>=0.3.3",
     "langchain-openai>=0.3.18",
     "langgraph>=0.4.7",
